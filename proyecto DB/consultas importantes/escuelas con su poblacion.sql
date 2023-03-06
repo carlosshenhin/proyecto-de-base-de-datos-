@@ -1,0 +1,3 @@
+SELECT consulta1.id,consulta1.codigo_poblacion_escuela,consulta2.poblacion
+FROM schema_1.poblacion_escuela consulta1 JOIN schema_1.poblaciones consulta2
+ON consulta1.codigo_poblacion_escuela = consulta2.codigo_poblacion;

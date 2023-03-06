@@ -1,0 +1,2 @@
+SELECT consulta1.nombre,consulta1.id,consulta2.codigo_poblacion,consulta2.poblacion FROM schema_1.personas consulta1 LEFT JOIN schema_1.poblaciones consulta2  
+ON consulta1.poblacion = consulta2.codigo_poblacion;
